@@ -1,0 +1,23 @@
+# Credentials and local data
+.env
+.env.*
+!.env.example
+**/service-key*.json
+*.pem
+*.key
+.local-secret
+*.db
+*.sqlite*
+backend/instance/
+backend/reports/
+backend/static/images/analysis/
+# Dependencies and build artifacts
+.venv/
+venv/
+node_modules/
+dist/
+backend/static/frontend/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
